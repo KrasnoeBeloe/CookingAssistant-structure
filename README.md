@@ -1,1 +1,1 @@
-# CookingAssistant-structure
+# CookingAssistant
