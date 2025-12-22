@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Основа пончика -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFC107" /> <!-- Желтый цвет пончика -->
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+
+    <!-- Дырка в пончике -->
+    <item android:left="70dp" android:top="70dp" android:right="70dp" android:bottom="70dp">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!-- Глазурь -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF4081" /> <!-- Розовая глазурь -->
+            <stroke android:width="20dp" android:color="#FF4081" />
+        </shape>
+    </item>
+
+    <!-- Посыпка 1 -->
+    <item android:left="40dp" android:top="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#4CAF50" /> <!-- Зеленая посыпка -->
+            <size android:width="15dp" android:height="15dp" />
+        </shape>
+    </item>
+
+    <!-- Посыпка 2 -->
+    <item android:right="40dp" android:top="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#2196F3" /> <!-- Синяя посыпка -->
+            <size android:width="15dp" android:height="15dp" />
+        </shape>
+    </item>
+
+    <!-- Посыпка 3 -->
+    <item android:left="40dp" android:bottom="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF5722" /> <!-- Оранжевая посыпка -->
+            <size android:width="15dp" android:height="15dp" />
+        </shape>
+    </item>
+
+    <!-- Посыпка 4 -->
+    <item android:right="40dp" android:bottom="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#9C27B0" /> <!-- Фиолетовая посыпка -->
+            <size android:width="15dp" android:height="15dp" />
+        </shape>
+    </item>
+
+    <!-- Блик -->
+    <item android:left="30dp" android:top="30dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+            <size android:width="10dp" android:height="10dp" />
+        </shape>
+    </item>
+
+</layer-list>
